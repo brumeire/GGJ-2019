@@ -12,7 +12,7 @@
     <object class="GroupTrack" id="{79d75137-21f2-46cb-b42a-f30a4f2674ca}"/>
     <object class="Timeline" id="{8b1f188e-1319-4dea-96b2-6d18731d2226}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.02461033634126333</value>
+            <value>0.21314439738159413</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{4e30ed7b-651f-407e-aac9-ed9340d71127}">
@@ -22,6 +22,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{3da9e95f-405e-47e5-bb8d-db83646157fb}"/>
     <object class="MixerBusPanner" id="{4c9ed5db-b620-469c-bc4e-f1bf9bdf29e3}"/>
+    <object class="AutomationTrack" id="{bb33c34f-6587-4e52-94b7-4910291a56ae}"/>
+    <object class="SingleSound" id="{1987749e-0e1a-4b07-a9cc-1eca1ff1a777}"/>
     <object class="EventMixerGroup" id="{79e19f3f-ce37-4c48-9320-ecd2f7b620fb}"/>
     <object class="MixerBusEffectChain" id="{9e9bf8c5-4232-46db-b52d-26e6297eba0b}"/>
     <object class="MixerBusPanner" id="{e1d33b20-4837-4bc4-950b-b83aaf1121ee}"/>
@@ -30,5 +32,6 @@
     <object class="MixerBusPanner" id="{76144809-fd2e-43f4-9d51-1ea3c383b027}"/>
     <object class="MixerBusFader" id="{c46da944-680e-4874-88d8-aa8f3a22347e}"/>
     <object class="SpatialiserEffect" id="{b1bc3057-41b0-4e9d-b74d-1acea3ec6622}"/>
+    <object class="SFXReverbEffect" id="{db52ae9a-96ce-42d7-b9ce-db94e0916a95}"/>
     <object class="MixerBusFader" id="{8b125d83-fd59-4faf-8735-45045926d297}"/>
 </objects>
