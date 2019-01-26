@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{7baea628-656b-40e4-81c4-c39d526e85b8}">
+        <property name="assetPath">
+            <value>Reaper - HeartBeat_02.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.90000000000000002</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{f2061995-249f-4279-936c-31ada49dcdb3}</destination>
+        </relationship>
+    </object>
+</objects>

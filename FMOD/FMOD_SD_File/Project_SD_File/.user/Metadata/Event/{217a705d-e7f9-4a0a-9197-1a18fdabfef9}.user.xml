@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{217a705d-e7f9-4a0a-9197-1a18fdabfef9}">
+        <relationship name="selectables">
+            <destination>{edf471dd-a955-42aa-b6e6-1e6b4197ee77}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{ca9580cc-f27d-4720-8ece-c395a6f5a1ac}</destination>
         </relationship>
@@ -12,7 +15,7 @@
     <object class="GroupTrack" id="{edf471dd-a955-42aa-b6e6-1e6b4197ee77}"/>
     <object class="Timeline" id="{ca9580cc-f27d-4720-8ece-c395a6f5a1ac}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.02461033634126333</value>
+            <value>0.00070754716981132071</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{37a38855-2463-4100-b508-413052a7ddf9}">
@@ -22,13 +25,17 @@
     </object>
     <object class="MixerBusEffectChain" id="{af06977b-63af-44f2-8cbe-dc688f17143b}"/>
     <object class="MixerBusPanner" id="{267c1614-8315-48d2-bb4a-89ea8b3af66e}"/>
+    <object class="SingleSound" id="{5bf9ba8c-c052-4502-ace1-0c9c0dc27495}"/>
     <object class="EventMixerGroup" id="{1921b1fc-75a6-42ce-a370-0c7d2feede55}"/>
     <object class="MixerBusEffectChain" id="{dc8f6547-0c77-4717-8764-664f59caff7e}"/>
     <object class="MixerBusPanner" id="{639b4647-a527-424b-a609-cb4b536ca57f}"/>
     <object class="MixerBusFader" id="{9bd8bcbc-92cd-4cf3-b4b1-20eee58311d9}"/>
+    <object class="RandomizerModulator" id="{c5a0e24f-a553-4e20-8051-92914106cac6}"/>
     <object class="MixerBusEffectChain" id="{374696cd-74ac-4595-9610-0c7bc1ee1544}"/>
     <object class="MixerBusPanner" id="{67607193-9a77-4212-8d05-daf3e8506655}"/>
     <object class="MixerBusFader" id="{c1672823-a185-4b50-8580-adf941e3cfaa}"/>
     <object class="SpatialiserEffect" id="{ae6f5e6c-3982-403f-8bf4-6cb2b05aa155}"/>
     <object class="MixerBusFader" id="{d78990a2-844c-487a-940a-200f75d7bada}"/>
+    <object class="LowpassEffect" id="{480f17ae-b4b8-4803-8c5c-21a9352f91e2}"/>
+    <object class="SFXReverbEffect" id="{c3662d62-b36c-4949-a686-1e64f93564d8}"/>
 </objects>
