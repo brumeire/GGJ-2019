@@ -7,6 +7,11 @@ using Valve.VR.InteractionSystem;
 public class SmallAsteroid : Asteroid
 {
 
+    protected override void Update()
+    {
+        transform.Rotate(Vector3.one * Time.deltaTime * 0f, Space.Self);
+    }
+
     protected override void OnDetachedFromHand(Hand hand)
     {
         isDetached = true;
@@ -14,7 +19,7 @@ public class SmallAsteroid : Asteroid
         player.transform.SetParent(null);
         //Vector3 totalMovement = (startingPlayerPos - player.transform.position);
         player.GetComponent<Rigidbody>().AddForce(GetDirectionPositionList() * 350f);
-        gameObject.GetComponent<Rigidbody>().AddForce(-GetDirectionPositionList() * 350f);
+        gameObject.GetComponent<Rigidbody>().AddForce(-GetDirectionPositionList() * departureSpeed);
         Debug.Log("grabing finish : " + GetDirectionPositionList());
     }
 }
