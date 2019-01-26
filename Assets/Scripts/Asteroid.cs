@@ -20,6 +20,8 @@ public class Asteroid : MonoBehaviour {
 
     protected bool isDetached = true;
 
+    public float grabSpeedModifier = 0.7f;
+
     protected virtual void Awake()
     {
         interactable = GetComponent<Interactable>();
@@ -58,7 +60,7 @@ public class Asteroid : MonoBehaviour {
             //Debug.Log("grab is on the way : " + hand.transform.position);
 
             Vector3 asteroidMovement = transform.position - previousAsteroidPos;
-            Vector3 playerMovement = previousHandPos - hand.transform.position;
+            Vector3 playerMovement = (previousHandPos - hand.transform.position) * grabSpeedModifier;
 
             player.transform.position = player.transform.position + playerMovement + asteroidMovement;
             previousHandPos = hand.transform.position;
