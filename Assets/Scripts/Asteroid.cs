@@ -6,9 +6,9 @@ using Valve.VR.InteractionSystem;
 
 public class Asteroid : MonoBehaviour {
 
-    private Interactable interactable;
-    private Hand.AttachmentFlags attachmentFlags = Hand.AttachmentFlags.DetachFromOtherHand;
-    private GameObject player;
+    protected Interactable interactable;
+    protected Hand.AttachmentFlags attachmentFlags = Hand.AttachmentFlags.DetachFromOtherHand;
+    protected GameObject player;
     private Vector3 startingHandPos;
     private Vector3 previousHandPos;
     private float durationGrab = 0f;
@@ -18,7 +18,7 @@ public class Asteroid : MonoBehaviour {
 
     private Vector3 previousAsteroidPos;
 
-    private bool isDetached = true;
+    protected bool isDetached = true;
 
     protected virtual void Awake()
     {
@@ -94,7 +94,7 @@ public class Asteroid : MonoBehaviour {
         }
     }
 
-    private Vector3 GetDirectionPositionList()
+    protected Vector3 GetDirectionPositionList()
     {
         Vector3 pos = positionList[positionList.Count - 1] - positionList[0];
         return pos;
